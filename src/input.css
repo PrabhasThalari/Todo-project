@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-blue-violet {
+        @apply bg-[#4f55c1] text-white px-4 py-2 rounded-full
+    }
+}
